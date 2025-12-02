@@ -40,21 +40,19 @@ img {
 }
 /*start editing for exercise below */
 .grid {
-  display: grid; 
-  grid-template-areas: 
-"mudkip mudkip"
-"piplup piplup"
-"Chimchar Cyndaquil"
-"torchic torchic";
+  grid-template-areas: "mudkip mudkip"
+                       "piplup piplup"
+                       "chimchar cyndaquil"
+                       "torchic torchic";
   grid-template-columns: 200px 300px;
   grid-template-rows: 150px 200px 300px 200px;
   justify-items: center;
   width: 600px;
   justify-content: end;
   align-items: stretch;
-/*height: 1000px;*/
   align-content: center;
-    grid-auto-rows: 150px;
+  /*height: 1000px;*/
+  grid-auto-rows: 150px;
 }
 .mudkip  {
   grid-area: mudkip;
